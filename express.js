@@ -7,7 +7,8 @@ var businessController=function(req,resp)
    {id:1,name:"kurkure",quantity:40,price:30},
      {id:2,name:"lays",quantity:45,price:70},
 	   {id:3,name:"balaji",quantity:37,price:60},
-	     {id:4,name:"wheelos",quantity:54,price:50}
+	     {id:4,name:"wheelos",quantity:54,price:50},
+		 {id:5,name:"lays2",quantity:45,price:60}
 		 ];
 	resp.send(entities);
 };
